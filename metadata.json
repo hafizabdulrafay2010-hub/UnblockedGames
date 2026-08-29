@@ -1,0 +1,7 @@
+{
+  "name": "Eliminater Range",
+  "description": "Eliminater Range - High-performance unblocked games & tactical iframe game armory loaded directly from JSON with instant aim and category navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

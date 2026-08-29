@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', 'Space Grotesk', sans-serif;
+  }
+
+  code, kbd, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom marquee animations */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* RGB Gaming Chroma Spectrum Animations */
+@keyframes rgb-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes rgb-shadow-pulse {
+  0% {
+    box-shadow: 0 0 15px rgba(255, 0, 85, 0.5), 0 0 30px rgba(0, 240, 255, 0.3);
+  }
+  33% {
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.5), 0 0 30px rgba(57, 255, 20, 0.3);
+  }
+  66% {
+    box-shadow: 0 0 15px rgba(184, 41, 255, 0.5), 0 0 30px rgba(255, 184, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 0, 85, 0.5), 0 0 30px rgba(0, 240, 255, 0.3);
+  }
+}
+
+@keyframes rgb-border-flow {
+  0% { border-color: #ff0055; }
+  25% { border-color: #00f0ff; }
+  50% { border-color: #39ff14; }
+  75% { border-color: #b829ff; }
+  100% { border-color: #ff0055; }
+}
+
+.rgb-text {
+  background: linear-gradient(90deg, #ff0055, #ff5500, #ffb800, #39ff14, #00f0ff, #0066ff, #b829ff, #ff0055);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rgb-flow 4s ease infinite;
+}
+
+.rgb-bg {
+  background: linear-gradient(90deg, #ff0055, #ff5500, #ffb800, #39ff14, #00f0ff, #0066ff, #b829ff, #ff0055);
+  background-size: 300% 300%;
+  animation: rgb-flow 4s ease infinite;
+}
+
+.rgb-border {
+  animation: rgb-border-flow 4s ease infinite;
+}
+
+.rgb-glow {
+  animation: rgb-shadow-pulse 3s ease infinite;
+}
+
+.rgb-hover-card {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rgb-hover-card:hover {
+  border-color: #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.35), 0 0 40px rgba(255, 0, 85, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Cyber arcade grid lines */
+.bg-arcade-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 0, 85, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-arcade-dots {
+  background-image: radial-gradient(rgba(0, 240, 255, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ff0055, #00f0ff);
+}

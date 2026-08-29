@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "title": "Unblocked Games Hub Library",
+  "description": "Collection of unblocked games stored as iframe configurations and embeds",
+  "categories": [
+    "All",
+    "Arcade",
+    "Action",
+    "Puzzle",
+    "Retro",
+    "Sports",
+    "Strategy",
+    "Casual"
+  ],
+  "games": [
+    {
+      "id": "snake-classic",
+      "title": "Retro Snake",
+      "category": "Arcade",
+      "description": "The legendary vintage Nokia snake arcade game. Eat red apples, grow your tail, and avoid walls or crashing into yourself!",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "1/1",
+      "controls": "Arrow Keys or WASD to move • Space to pause",
+      "tags": ["Snake", "Retro", "Classic", "Arcade", "2D"],
+      "featured": true
+    },
+    {
+      "id": "game-2048",
+      "title": "2048 Classic",
+      "category": "Puzzle",
+      "description": "Slide numbered tiles on a 4x4 grid. When two tiles with the same number touch, they merge into one! Can you reach 2048?",
+      "iframeUrl": "https://play2048.co/",
+      "aspectRatio": "1/1",
+      "controls": "Arrow Keys / WASD or Swipe to slide tiles",
+      "tags": ["Numbers", "Puzzle", "Math", "Brain", "Sliding"],
+      "featured": true
+    },
+    {
+      "id": "flappy-bird",
+      "title": "Flappy Wings",
+      "category": "Casual",
+      "description": "Tap or press space to flap your wings and navigate through the green pipes without crashing.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Spacebar, Up Arrow, or Click to flap",
+      "tags": ["Flying", "Endless", "Tap", "Skill", "Bird"],
+      "featured": true
+    },
+    {
+      "id": "space-invaders",
+      "title": "Space Invaders",
+      "category": "Action",
+      "description": "Defend planet Earth from waves of descending alien fleets! Move your battle cannon left and right and blast the invaders.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Left/Right or A/D to move • Space to Fire",
+      "tags": ["Space", "Shooter", "Retro", "Arcade", "Aliens"],
+      "featured": true
+    },
+    {
+      "id": "tetra-blocks",
+      "title": "Falling Tetra",
+      "category": "Puzzle",
+      "description": "Arrange falling tetromino shapes into solid horizontal rows to clear lines and score massive combo points.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Left/Right to move • Up to rotate • Down to soft drop • Space for hard drop",
+      "tags": ["Tetris", "Blocks", "Puzzle", "Retro", "Lines"],
+      "featured": true
+    },
+    {
+      "id": "brick-breaker",
+      "title": "Breakout Arcade",
+      "category": "Arcade",
+      "description": "Bounce the steel ball against colorful brick walls using your paddle. Clear every single brick to triumph!",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Mouse or Left/Right Arrow Keys to move paddle",
+      "tags": ["Breakout", "Paddle", "Ball", "Retro", "Bricks"],
+      "featured": false
+    },
+    {
+      "id": "dino-runner",
+      "title": "T-Rex Desert Run",
+      "category": "Action",
+      "description": "The iconic desert runner. Jump over sharp cacti and duck under flying pterodactyls as speed escalates.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "16/9",
+      "controls": "Space or Up Arrow to jump • Down Arrow to duck",
+      "tags": ["Dino", "Endless Runner", "Jump", "Action"],
+      "featured": false
+    },
+    {
+      "id": "asteroids-vector",
+      "title": "Asteroids 1979",
+      "category": "Action",
+      "description": "Navigate your geometric starship in deep space. Shoot large asteroids into fragments while avoiding collisions.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Up Arrow (Thrust) • Left/Right (Rotate) • Space (Shoot) • Shift (Hyperspace)",
+      "tags": ["Space", "Vector", "Classic", "Asteroids", "Physics"],
+      "featured": false
+    },
+    {
+      "id": "tower-stacker",
+      "title": "Tower Stacker",
+      "category": "Casual",
+      "description": "Stack moving blocks on top of each other with pinpoint precision to build the tallest skyscraper.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Click, Tap, or Spacebar to place moving block",
+      "tags": ["Stacking", "Timing", "Tower", "Casual", "Rhythm"],
+      "featured": false
+    },
+    {
+      "id": "pong-retro",
+      "title": "Pong Masters",
+      "category": "Sports",
+      "description": "Test your paddle reflexes against an intelligent computer AI in fast-paced retro table tennis.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "4/3",
+      "controls": "Mouse or W/S keys to slide paddle up and down",
+      "tags": ["Pong", "Tennis", "Retro", "2-Player", "Sports"],
+      "featured": false
+    },
+    {
+      "id": "minesweeper-pro",
+      "title": "Minesweeper",
+      "category": "Strategy",
+      "description": "Uncover clean cells while deducing the hidden positions of dangerous explosive mines using numerical hints.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "1/1",
+      "controls": "Left Click to reveal • Right Click / Long Press to plant flag",
+      "tags": ["Minesweeper", "Logic", "Strategy", "Mines", "Puzzle"],
+      "featured": false
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic-Tac-Toe Pro",
+      "category": "Strategy",
+      "description": "Classic 3x3 board game. Play against unbeatable minimax AI or a friend in 2-Player mode.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "1/1",
+      "controls": "Click on any empty cell to place X or O",
+      "tags": ["TicTacToe", "Board", "AI", "Strategy", "2Player"],
+      "featured": false
+    },
+    {
+      "id": "memory-flip",
+      "title": "Memory Flip Match",
+      "category": "Casual",
+      "description": "Flip pairs of hidden emoji cards to find matching pairs in minimal moves.",
+      "iframeUrl": "about:blank",
+      "aspectRatio": "1/1",
+      "controls": "Click cards to flip and find matching pairs",
+      "tags": ["Memory", "Cards", "Brain", "Pairs", "Casual"],
+      "featured": false
+    },
+    {
+      "id": "hextris-puzzle",
+      "title": "Hextris Online",
+      "category": "Puzzle",
+      "description": "Fast-paced hexagonal puzzle game inspired by Tetris. Rotate the hexagon to catch colored bars and clear 3 in a row.",
+      "iframeUrl": "https://hextris.io/",
+      "aspectRatio": "16/9",
+      "controls": "Left and Right Arrow keys or A/D to rotate hexagon",
+      "tags": ["Hexagon", "Puzzle", "Fast", "Color Match"],
+      "featured": false
+    }
+  ]
+}
