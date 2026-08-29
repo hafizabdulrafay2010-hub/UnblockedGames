@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { DEFAULT_GAMES } from './data/defaultGames';
 import { Navbar, CLOAK_OPTIONS } from './components/Navbar';
-import { CategoryBar } from './components/CategoryBar';
+import { CategoryBar } from './components/CategoryBar.jsx';
 import { MostPlayedSection } from './components/MostPlayedSection';
 import { GameCard } from './components/GameCard';
 import { GamePlayer } from './components/GamePlayer';
