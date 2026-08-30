@@ -1,7 +1,7 @@
 import { GAME_EMBEDS } from './gamesTemplates';
 import { MORE_GAME_EMBEDS } from './moreGamesTemplates';
 
-export const DEFAULT_GAMES = [
+export const DEFAULT_GAMES = [];
   {
     id: 'snake-classic',
     title: 'Retro Snake',
