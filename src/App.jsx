@@ -10,7 +10,7 @@ import { CategoryBar } from './components/CategoryBar.jsx';
 import { MostPlayedSection } from './components/MostPlayedSection';
 import { GameCard } from './components/GameCard';
 import { GamePlayer } from './components/GamePlayer';
-import { AdminDashboard } from './components/AddGameModal';
+import { AdminDashboard } from './components/AdminDashboard.jsx';
 import { JsonModal } from './components/JsonModal';
 import { PanicScreen } from './components/PanicScreen';
 import { 
