@@ -1,19 +1,13 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-import React, { useState, useEffect, useMemo } from 'react';
-import { DEFAULT_GAMES } from './data/defaultGames';
 import { Navbar, CLOAK_OPTIONS } from './components/Navbar';
 import { CategoryBar } from './components/CategoryBar.jsx';
 import { MostPlayedSection } from './components/MostPlayedSection';
 import { GameCard } from './components/GameCard';
 import { GamePlayer } from './components/GamePlayer';
-import { AdminDashboard } from './components/AdminDashboard.jsx';
+import AdminDashboard from './components/AdminDashboard.jsx';
+import { AddGameModal } from './components/AddGameModal';
 import { JsonModal } from './components/JsonModal';
 import { PanicScreen } from './components/PanicScreen';
-import { 
+import {
   Flame, 
   Search, 
   Play,
